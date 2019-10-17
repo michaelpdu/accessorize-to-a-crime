@@ -1,6 +1,6 @@
 % setup toolbox
-run(fullfile('../../../libraries/MatConNet/', 'matlab', 'vl_setupnn.m')) ; % update me
+run(fullfile('../../Downloads/matconvnet-1.0-beta25/', 'matlab', 'vl_setupnn.m')) ; % update me
 
 % add necessary paths
-addpath ./aux/image-registration/
-addpath ./aux/attack/
+addpath ./auxi/image-registration/
+addpath ./auxi/attack/

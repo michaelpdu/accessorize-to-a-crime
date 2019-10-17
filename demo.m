@@ -1,4 +1,4 @@
-net_path = '../../face-rec-matconvnet/trained-model/vgg_face_matconvnet/data/vgg_face.mat'; % update me
+net_path = '../../Downloads/vgg_face_matconvnet/data/vgg_face.mat'; % update me
 
 %% digital dodging example
 digital_dodging(net_path, './data/', 's478', 478);

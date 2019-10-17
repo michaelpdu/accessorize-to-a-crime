@@ -2,9 +2,9 @@
 % transformation)
 
 py_cmd = '/usr/local/bin/python'; % update me
-py_script = './aux/image-registration/face_landmark_detection.py'; % update me
+py_script = './auxi/image-registration/face_landmark_detection.py'; % update me
 dlib_model = '../../../libraries/dlib-master/trained-models/shape_predictor_68_face_landmarks.dat'; % update me
-ref_landmarks = './aux/image-registration/ref_marks.csv';
+ref_landmarks = './auxi/image-registration/ref_marks.csv';
 
 subjects = {'s478'};
 for i = 1:numel(subjects)
